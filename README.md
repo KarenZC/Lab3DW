@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/KarenZC/Lab3DW/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+  <header>
+		<div class="logo"><img src="https://uploads.codesandbox.io/uploads/user/6eb75550-4d51-47fd-8ec1-d216b5da5e5c/M4sq-logo.jpeg"/></div>
+		<h1>The ABC Company</h1>
+	</header>
+	<nav class="navbar">
+		<div class="hamburger">&#9776;</div>
+		<ul class="menu">
+			<li>Home</li>
+			<li>Products</li>
+			<li>About</li>
+			<li>Help</li>
+		</ul>
+	</nav>
+	<main>
+    <section class="product">
+		 <i class="fas fa-apple-alt fa-5x"></i>
+			<h2>A as in Apple</h2>
+			<p>
+				We take out fruit very seriously at ABC, that is why
+       the A in ABC is for Apple. Try our new AppleBook App,
+			 the coolest new technology disrupting the fruit industry.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			This is the Uber of Apples! 
+			</p>
+		</section>
+		<section class="product">
+			<i class="fas fa-money-bill-wave fa-5x"></i>
+			<h2>B as in Bail</h2>
+			<p>
+				Do you need Bail! Our new BailFace app will provide you
+				with lawyers and bail money at the push of a button. Its the 
+				Facebook of bail bonds!
+			</p>
+		</section>
+		<section class="product">
+			<i class="fas fa-utensils fa-5x"></i>
+			<h2>C as in Curry</h2>
 
-### Markdown
+			<p>
+				Fancy some curry! Our new HurryCurry app will provide curry
+				cooked by Italian chefs right to your door. Its the AirBnB of curry!
+			</p>
+		</section>
+	</main>
+  <footer>
+		<ul class="social">
+			<li class="social_icon"><i class="fab fa-twitter"></i></li>
+			<li class="social_icon"><i class="fab fa-facebook"></i></li>
+			<li class="social_icon"><i class="fab fa-instagram"></i></li>
+		</ul>
+	</footer>
+</body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KarenZC/Lab3DW/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
